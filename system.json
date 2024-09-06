@@ -3,7 +3,7 @@
   "title": "How to be a Hero",
   "description": "How to be a Hero - das Regelwerk deiner Wahl. Wir stehen für Einsteigerfreundlichkeit, Einfachheit und Freiheit.",
   "author": "Julian",
-  "version": 0.01,
+  "version": 0.02,
   "minimumCoreVersion": "0.7.7",
   "compatibleCoreVersion": "0.7.9",
   "esmodules": [
@@ -28,13 +28,17 @@
       "path": "lang/de.json"
     }
   ],
+  "compatibility": {
+    "minimum": 10,
+    "verified": 12
+  },
   "gridDistance": 1,
   "gridUnits": "m",
   "initiative": "1d10 + @action.points",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": null,
-  "url": "https://github.com/julr/htbah",
-  "manifest": "https://raw.githubusercontent.com/julr/htbah/main/system.json",
-  "download": "https://github.com/julr/htbah/archive/main.zip",
+  "url": "https://github.com/D3Smind/htbah",
+  "manifest": "https://raw.githubusercontent.com/D3Smind/htbah/main/system.json",
+  "download": "https://github.com/D3Smind/htbah/archive/main.zip",
   "license": "License.txt"
 }
