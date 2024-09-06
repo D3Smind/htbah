@@ -45,7 +45,7 @@ Hooks.once("init", function () {
     CONFIG.htbah = htbah;
 
     // Override default actort class
-    CONFIG.Actor.entityClass = HTBAHActor;
+    CONFIG.Actor.documentClass = HTBAHActor;
 
     Actors.unregisterSheet("core", ActorSheet); //unregister default (core)
     Actors.registerSheet("htbah", HTBAHActorSheet, { makeDefault: true }); //register systems sheet
