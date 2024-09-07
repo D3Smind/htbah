@@ -3,13 +3,13 @@ import { normalRoll, checkRoll } from './../roll.js';
 export default class HTBAHActorSheet extends ActorSheet {
 
     static get defaultOptions() {
-        return mergeObject(super.defaultOptions, {
+        return foundry.utils.mergeObject(super.defaultOptions, {
             template: "systems/htbah/templates/sheets/actor-sheet.hbs",
             classes: ["htbah", "sheet", "actor"],
             width: 600,
             height: 700,
-            tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-content", initial: "biography" }],
-            scrollY: [".biography", ".items", ".skills"],
+            tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-content", initial: "biography" }]/**,
+            scrollY: [".biography", ".items", ".skills"],**/
         });
     }
 
