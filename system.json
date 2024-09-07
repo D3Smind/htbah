@@ -3,9 +3,7 @@
   "title": "How to be a Hero",
   "description": "How to be a Hero - das Regelwerk deiner Wahl. Wir stehen für Einsteigerfreundlichkeit, Einfachheit und Freiheit.",
   "author": "Julian",
-  "version": 0.02,
-  "minimumCoreVersion": "0.7.7",
-  "compatibleCoreVersion": "0.7.9",
+  "version": "0.4.0",
   "esmodules": [
     "modules/main.js"
   ],
@@ -29,7 +27,7 @@
     }
   ],
   "compatibility": {
-    "minimum": 10,
+    "minimum": 12,
     "verified": 12
   },
   "gridDistance": 1,
