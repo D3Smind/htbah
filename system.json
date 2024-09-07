@@ -3,7 +3,7 @@
   "title": "How to be a Hero",
   "description": "How to be a Hero - das Regelwerk deiner Wahl. Wir stehen für Einsteigerfreundlichkeit, Einfachheit und Freiheit.",
   "author": "Julian",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "esmodules": [
     "modules/main.js"
   ],
