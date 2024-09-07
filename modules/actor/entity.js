@@ -1,7 +1,7 @@
 export default class HTBAHActor extends Actor {
 
     prepareDerivedData() {
-        const data = this.system;
+        const actorData = this.system;
 
         // skills are only relevant for pc and npc
         if(actorData.type == 'pc' || actorData.type == 'npc')
